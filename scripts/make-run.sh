@@ -1,6 +1,6 @@
 #!/bin/bash
 
 echo "Starting local environment..."
-docker compose up
+docker compose --file ./local/docker-compose.yaml up
 echo "Stopping local environment..."
-docker compose down
+docker compose --file ./local/docker-compose.yaml down
