@@ -7,7 +7,6 @@ run: ## Start all defined services
 	@./scripts/make-run.sh
 
 build-all: ## Build all defined services
-	@make build service=proxy
 
 build: ## Build
 	@cd ./services/${service} && make build
