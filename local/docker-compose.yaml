@@ -3,16 +3,6 @@ networks:
   prjctnet:
 
 services:
-  ###########
-  ## Proxy ##
-  ###########
-  proxy:
-    image: harbor.cubexs.dev/prjctrepo/proxy
-    ports:
-      - 80:8080
-    networks:
-      - prjctnet
-
   ##################
   ## Dependencies ##
   ##################
